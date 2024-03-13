@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* #2da95c
+#033B4A
+#9DABAF */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Avenir-Roman, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+    
+  }
+}
+
+@media only screen and (min-width: 489px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+   
+  }
+}
+
+@media only screen and (max-width: 479px){
+  body{
+    font-size: 14px;
+    
+  }
+}
